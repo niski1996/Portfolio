@@ -1,0 +1,16 @@
+{
+    "shortInfo": "Robię sobie fajne rzeczy i  jest mi z tym dobrze.",
+    "menu": {
+      "about": "O mnie",
+      "experience": "Doswiadczenie",
+      "projects": "Projekty",
+      "settings": "Ustawienia"
+    },
+    "bio":{
+      "basic":"Jestem programistą z pasją to poszukiwania ciekwych rozwiązań i technologii. Przez mojej kariery skupiałem się na backendzie, ale ostatnio, po zakończeniu studiów podyplomowych zacząłem rozwijać również umiejętności frontendowe.",
+      "edu": "zawsze lubiałem się uczyć więc staram się nieprzerwanie rozwijać zarówno prywatnie jak i zawodowo. Wyrazem tego mogą być studia zaoczne na kierunku cyberbezpieczeństwo, na które uczęszczam jako drugi fakultet. Wcześniej ukończyłem magisterkę z budownictwa, ale gonienie pijanych pracowników po rusztowaniach nie było tak rozwijające jak oczekiwałm.",
+      "future": "Jeżeli zapytasz mnie o to gdzie widzę się za 10 lat, to są dwie ścieżki:",
+      "future1": "Wybraź sobie korporacyjne bezdusznne wnętrze, wszystko w bielach i szarościach, a w środku pani Halina z księgowości, dla której nie istnieją limit w ilości kolorów i makijażu który może nałożyć. Na tawarzy ma wyraz bezgranicznego, dziecięco niewinnego zdumienia, a nad nią ja, 120 kg cudem tamowanej wściekłości, który po raz 5 w tym kwratale próbuje rozsądnie wytłumaczyć dlaczego prawdziwy Ryan Gosling na pewno NIE napisałby do niej z prośbą o dane finansowe wszystkich klientów ",
+      "future2":"Nic nie widzę, bo policja wchodząc do domu odcięła prąd, na oślep gorączkowo rozbijam twarde dyski z napisem `RomanticGoslingBot` i zastanawiam się czy uda mi się przecisnąć przez to małe okienko prowadzące do ogrodu."
+    }
+  }

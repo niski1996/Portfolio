@@ -1,10 +1,14 @@
 import ShortInfo from './ShortInfo';
+import Menu from './Menu';
+import Social from './Social';
 
 function NavigationBar() {
   return (
-    <nav>
+<header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
       <ShortInfo />
-    </nav>
+      <Menu />
+      {/* <Social /> */}
+    </header>
   );
 }
 

@@ -10,6 +10,7 @@ function ShortInfo() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
+          className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"
         >
           Karol Ziobro
         </motion.h1>
@@ -18,6 +19,7 @@ function ShortInfo() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
+          className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl"
         >
           Software Engineer
         </motion.h2>
@@ -26,6 +28,7 @@ function ShortInfo() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.4 }}
+          className="mt-4 max-w-xs leading-normal"
         >
             {t('shortInfo')}
         </motion.p>

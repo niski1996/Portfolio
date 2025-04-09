@@ -1,4 +1,4 @@
-import navi from '../locales/pl/navi.json';
+import navi from '../locales/pl/ns.json';
 
 
 const resources = {
