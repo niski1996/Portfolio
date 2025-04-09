@@ -1,24 +1,25 @@
 import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import enNs1 from './locales/en/ns1.json';
-import enNs2 from './locales/en/ns2.json';
-import deNs1 from './locales/de/ns1.json';
-import deNs2 from './locales/de/ns2.json';
+import plNavi from './locales/pl/navi.json';
+import enNavi from './locales/en/navi.json';
+import deNavi from './locales/de/navi.json';
 
-export const defaultNS = 'ns1';
+export const defaultNS = 'navi';
 
 i18next.use(initReactI18next).init({
   debug: true,
-  fallbackLng: 'de',
+  fallbackLng: 'pl',
   defaultNS,
   resources: {
     en: {
-      ns1: enNs1,
-      ns2: enNs2,
+      navi: enNavi,
     },
     de: {
-      ns1: deNs1,
-      ns2: deNs2,
+      navi: deNavi,
+
+    },
+    pl: {
+      navi: plNavi,
     },
   },
 });
