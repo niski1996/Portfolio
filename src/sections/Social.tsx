@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 
 const Socials = () => {
   return (
-    <div className="flex flex-row gap-4 text-white text-2xl fixed bottom-0 left-6 z-50">
+    <div className="flex flex-row ml-10 mt-8 items-center">
       <a href="https://github.com/niski1996" target="_blank" rel="noopener noreferrer">
         <FaGithub className="hover:text-green-400 transition" />
       </a>
