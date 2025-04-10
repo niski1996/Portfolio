@@ -12,5 +12,55 @@
       "future": "Jeżeli zapytasz mnie o to gdzie widzę się za 10 lat, to są dwie ścieżki:",
       "future1": "Wybraź sobie korporacyjne bezdusznne wnętrze, wszystko w bielach i szarościach, a w środku pani Halina z księgowości, dla której nie istnieją limit w ilości kolorów i makijażu który może nałożyć. Na tawarzy ma wyraz bezgranicznego, dziecięco niewinnego zdumienia, a nad nią ja, 120 kg cudem tamowanej wściekłości, który po raz 5 w tym kwratale próbuje rozsądnie wytłumaczyć dlaczego prawdziwy Ryan Gosling na pewno NIE napisałby do niej z prośbą o dane finansowe wszystkich klientów ",
       "future2":"Nic nie widzę, bo policja wchodząc do domu odcięła prąd, na oślep gorączkowo rozbijam twarde dyski z napisem `RomanticGoslingBot` i zastanawiam się czy uda mi się przecisnąć przez to małe okienko prowadzące do ogrodu."
+    },
+    "work":{
+      "shiji":{
+        "companyName":"Shiji",
+        "position":"junior backend developer",
+        "startDate":"2023-01-01",
+        "endDate":"2023-10-01",
+        "description":"Pracowałem nad systemem do zarządzania danymi klientów i zamówieniami. Używałem technologii takich jak Java, Spring Boot, Hibernate i PostgreSQL. Współpracowałem z zespołem w metodyce Agile, uczestnicząc w codziennych spotkaniach i przeglądach kodu.",
+        "techs":[
+          ".NET 8",
+          "EF Core",
+          "PostgreSQL"
+        ],
+        "link":"https://pl.shijigroup.com/"
+      },
+      "intuivision":{
+        "companyName":"Dimark (outsorcing, jako IntuiVision)",
+        "position":"młodszy programista NET",
+        "startDate":"2022-10-01",
+        "endDate":"2023-01-01",
+        "description":"Pracowałem nad projektem badawczym związanym z analizą danych i uczeniem maszynowym. Używałem technologii takich jak Python, TensorFlow i scikit-learn. Współpracowałem z zespołem badawczym, uczestnicząc w spotkaniach i prezentacjach wyników.",
+        "techs":[
+          "Python",
+          "TensorFlow",
+          "scikit-learn"
+        ],
+        "link":"https://dimark.eu/"
+      }
+    },
+    "projects":{
+      "blobbjj": {
+        "name":"BlobBJJ",
+        "description":"Aplikacja do zarządzania treningami i zawodami BJJ. Umożliwia użytkownikom tworzenie profili, dodawanie treningów i zawodów oraz śledzenie postępów.",
+        "techs":[
+          "React",
+          "Node.js",
+          "MongoDB"
+        ],
+        "repoLink": "www.github.com/BlobBJJ"
+      },
+      "glosolalia":{
+        "name":"Głosolalia",
+        "description":"Aplikacja do nauki języków obcych poprzez interaktywne ćwiczenia i quizy. Umożliwia użytkownikom tworzenie własnych ćwiczeń i dzielenie się nimi z innymi.",
+        "techs":[
+          "React",
+          "Node.js",
+          "MongoDB"
+        ],
+        "repoLink": "www.github.com/Głosolalia"
+      }
     }
   }
