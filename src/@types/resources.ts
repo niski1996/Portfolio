@@ -1,8 +1,13 @@
-import navi from '../locales/pl/ns.json';
+// i18n.d.ts
+import 'react-i18next';
 
-
-const resources = {
-  navi,
-} as const;
-
-export default resources;
+declare module 'react-i18next' {
+  interface CustomTypeOptions {
+    resources: {
+      projects: Record<string, {
+        name: string;
+        description: string;
+      }>;
+    } 
+  }
+}

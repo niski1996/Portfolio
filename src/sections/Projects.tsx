@@ -10,7 +10,7 @@ function Projects() {
       <div>
         <ul>
           <li className="mb-12">
-            <ProjectTile />
+            <ProjectTile projectName="blobbjj" />
           </li>
         </ul>
       </div>

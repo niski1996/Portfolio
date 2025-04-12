@@ -1,7 +1,11 @@
 import { useTranslation } from "react-i18next";
 import PointingArrow from "./PointingArrow";
 
-function ProjectTile() {
+type ProjectTileProps = {
+    projectName: string;}
+
+const ProjectTile: React.FC<ProjectTileProps> = ({ projectName }) => {
+
   const { t } = useTranslation();
   
   return (
@@ -16,15 +20,14 @@ function ProjectTile() {
             rel="noreferrer"
             className="inline-flex items-baseline font-medium text-slate-200 hover:text-teal-300 group/link"
           >
-            Build a Spotify Connected{" "}
+            {t(`projects.${projectName}.name`)}
             <span className="inline-flex items-center">
-              App
               <PointingArrow />
             </span>
           </a>
         </h3>
         <p className="mt-2 text-sm">
-          {"ssp"} - A Spotify connected app that allows users to create and share playlists with friends. Built using React, Node.js, and the Spotify API.'
+        {t(`projects.${projectName}.description`)}
         </p>
       </div>
       
