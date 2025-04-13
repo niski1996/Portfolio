@@ -1,5 +1,7 @@
 import { useTranslation } from "react-i18next";
 import PointingArrow from "./PointingArrow";
+import ProjectCarousel from "./ProjectCarousel";
+import { projectImages } from "../assets/images/projects/imageManifest";
 
 type ProjectTileProps = {
     projectName: string;}
@@ -7,6 +9,7 @@ type ProjectTileProps = {
 const ProjectTile: React.FC<ProjectTileProps> = ({ projectName }) => {
 
   const { t } = useTranslation();
+  const imagePath = `../assets/images/projects/${projectName}`;
   
   return (
     <article className="group relative grid gap-4 sm:grid-cols-8 sm:gap-8 transition-all mt-8 mb-8">
@@ -30,15 +33,9 @@ const ProjectTile: React.FC<ProjectTileProps> = ({ projectName }) => {
         {t(`projects.${projectName}.description`)}
         </p>
       </div>
-      
-      {/* Image */}
-      <img 
-        alt={"ss"}
-        loading="lazy"
-        width={200}
-        height={48}
-        className="aspect-video rounded border-2 border-slate-200/10 sm:order-1 sm:col-span-2"
-        src="https://picsum.photos/200/48" 
+      <ProjectCarousel 
+        projectName="blobbjj" 
+        imageFiles={projectImages['blobbjj']} 
       />
     </article>
   );
